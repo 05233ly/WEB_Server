@@ -28,16 +28,17 @@
              系统随机分配；  
  
  ### Socket简介  
-## - [ 1、不同的电脑进程间如何通信？ ]  
+### - [ 1、不同的电脑进程间如何通信？ ]  
      IP地址 • 协议 • 端口  
-## - [2、只有socket才能实现网络功能，socket是完成网络通信必备的东西；  ]  
+### - [2、只有socket才能实现网络功能，socket是完成网络通信必备的东西；  ]  
  
- ## - [3、基本写法]  
+ ### - [3、基本写法]  
   TCP = socket.socket(socket.AF_INFI, socket.SOCK_STREN)  
   UDP = socket.socket(socket.AF_INFI, socket.SOCK_DGRAM)  
- 
- 
- 
+
+### 接下来请看下文，基本收发信息
+
+- [客户端与服务端](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/UDP_1.md)
  
  
  
