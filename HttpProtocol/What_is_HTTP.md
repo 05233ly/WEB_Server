@@ -24,7 +24,7 @@ Connection：告诉服务器，请求完成后，是否保持连接
 Date：告诉服务器，当前请求的时间  
 
 ## 再看看HTTP响应消息（服务器返回给浏览器的）：  
-  
+# ![body](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/body2.jpg)
 一个http响应代表服务器端向客户端回送的数据，它包括：  
 一个状态行，若干个消息头，以及实体内容  
 
@@ -45,18 +45,7 @@ Pragma：控制浏览器不要缓存数据          no-cache
 Connection：响应完成后，是否断开连接。  close/Keep-Alive  
 Date：告诉浏览器，服务器响应时间  
 
-
-## 内容  
-  只要header在body之间空上一行，浏览器就会解析成body  
-
-
-
-
-
-
-
-
-
+  
 
 
 
