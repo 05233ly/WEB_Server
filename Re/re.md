@@ -27,7 +27,7 @@ Re学习分为两个主要知识点，第一个match，search，findall等几个
 
 ## 补充  
 这些方法都有三个参数，其中前面两个是正常参数，第三个是可选模式(修正参数)，用来控制匹配的模式；  
-![re_3](https://github.com/KissMyLady/Web-of-Python/blob/master/Re/img/re_3.jpg)
+![re_3](https://github.com/KissMyLady/Web-of-Python/blob/master/Re/img/re_3.jpg)  
 
 ### 接下来
-- [re表达式]()
+- [re表达式](https://github.com/KissMyLady/Web-of-Python/blob/master/Re/re_text.md)  
