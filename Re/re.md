@@ -7,6 +7,9 @@ Re学习分为两个主要知识点，第一个match，search，findall等几个
 ### match方法  
 从头开始匹配，要是不符合，直接返回None;  
 ![match](https://github.com/KissMyLady/Web-of-Python/blob/master/Re/img/match1.jpg)  
+请注意，↑ 这里的resule如果有结果，且不加上.group()的话， 打印的结果会将是一个 <re.Match object; span=(0, 5), match='hello'>类型；  
+
+如果匹配不要数据，返回None  
 ![match2](https://github.com/KissMyLady/Web-of-Python/blob/master/Re/img/match2.jpg)  
 
 ### search方法  
@@ -25,3 +28,6 @@ Re学习分为两个主要知识点，第一个match，search，findall等几个
 ### 补充  
 这些方法都有三个参数，其中前面两个是正常参数，第三个是可选模式(修正参数)，用来控制匹配的模式；  
 ![re_3](re_3.jpg)
+
+### 接下来
+- [re表达式]()
