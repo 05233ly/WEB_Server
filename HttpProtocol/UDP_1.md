@@ -11,6 +11,9 @@
 可以在虚拟机看到主机发出的数据；
 ![send](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/send1.jpg)
 
+### 说明  
+UDP基本不用，互联网开始起步，设备差，UDP用的多。  
+
 ### 知识点
 windows里默认编码是GBK；  
 Linux里默认编码是utf-8;  
@@ -19,3 +22,7 @@ Linux里默认编码是utf-8;
 10.0.0.0  ~  10.255.255.255  
 172.16.0.0  ~  172.31.255.255  
 192.168.0.0  ~ 192.168.255.255
+
+
+### 接下来
+-[TCP客户端与服务端](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/TCP_1.md)
