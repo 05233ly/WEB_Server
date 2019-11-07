@@ -1,6 +1,6 @@
 ### TCP客户端
 TCP客户端很简单，把socket里的套接字type改成SOCK_STREAM就可以了  
-![TCP客户端](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/tcp_client2.jpg)
+![TCP客户端]()
 ### TCP服务端  
 一图抵万语。通过买个手机，类比TCP服务器的创建；  
 1、socket创建一个套接字；             买个手机；  
