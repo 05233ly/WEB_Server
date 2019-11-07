@@ -1,4 +1,4 @@
-# HTTP协议总览
+# 浏览器与服务器传输方式
 网络架构图
 # ![网络架构图](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/HTTP_img.jpg)
 
