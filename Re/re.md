@@ -13,7 +13,7 @@ Re学习分为两个主要知识点，第一个match，search，findall等几个
 ![match2](https://github.com/KissMyLady/Web-of-Python/blob/master/Re/img/match2.jpg)  
 
 ## search方法  
-匹配整个字符串，符合要求的就提取出来;  
+全局匹配第一个符合的字符串;  
 ![search](https://github.com/KissMyLady/Web-of-Python/blob/master/Re/img/search1.jpg)  
 
 ## findall方法  
