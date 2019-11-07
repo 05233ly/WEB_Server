@@ -1,5 +1,5 @@
 ### 实现简单的web服务器功能，返回简单的网页  
-! [simply-server](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/Img/server1.jpg)  
+![simply-server](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/Img/server1.jpg)  
 
 
 ### 看完了
