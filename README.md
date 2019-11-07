@@ -5,7 +5,7 @@
 
 
 ## :wrench:  Http协议
-- [HTTP介绍](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/What_is_HTTP.md)
+- [浏览器与服务器传输方式](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/What_is_HTTP.md)
 
 
   
