@@ -9,7 +9,7 @@ Re学习分为两个主要知识点，第一个match，search，findall等几个
 ![match](https://github.com/KissMyLady/Web-of-Python/blob/master/Re/img/match1.jpg)  
 请注意，↑ 这里的resule如果有结果，且不加上.group()的话， 打印的结果会将是一个 <re.Match object; span=(0, 5), match='hello'>类型；  
 
-如果匹配不要数据，返回None  
+如果匹配不到数据，返回None  
 ![match2](https://github.com/KissMyLady/Web-of-Python/blob/master/Re/img/match2.jpg)  
 
 ## search方法  
