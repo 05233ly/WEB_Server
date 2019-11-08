@@ -9,4 +9,4 @@
 第一层： 循环等待客户端连接  
 第二层： 循环等待套接字获取数据  
 
-![mulit_server]()
+![mulit_server](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Img/mulit_server1.jpg)  
