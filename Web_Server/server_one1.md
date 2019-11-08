@@ -4,3 +4,9 @@
 
 ![server](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Img/one_server.jpg)  
 
+
+## 加强版-完整代码展示  
+第一层： 循环等待客户端连接  
+第二层： 循环等待套接字获取数据  
+
+![mulit_server]()
