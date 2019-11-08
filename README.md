@@ -2,7 +2,7 @@
 
 ## :watermelon: 正则表达式
 - [Re学习](https://github.com/KissMyLady/Web-of-Python/blob/master/Re/re.md)
-
+- [Re表达式汇总](https://github.com/KissMyLady/Web-of-Python/blob/master/Re/re_text.md)
 
 ## :wrench:  Http协议
 - [浏览器与服务器传输方式](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/What_is_HTTP.md)
