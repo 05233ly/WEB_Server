@@ -20,9 +20,11 @@
 - [多进程实现http服务器](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_process.md)
 - [多线程实现http服务器](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Socket_1.md)
 - [协程gevet服务器](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/gevent.md)
-- [单线程单进程并发服务器](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/server_one1.md)
+- [单线程单进程并发服务器](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/server_one1.md)  
+- [长链接与短链接]()  
+- [单进程单线程并发_长链接]()  
 
-## :bulb: 网络通信
+## :bulb: 网络通信  
 - [TCP/IP协议](https://github.com/KissMyLady/Web-of-Python/blob/master/Communicationg/TCP.md)
 
 ### 排版  
