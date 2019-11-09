@@ -10,17 +10,17 @@
 - [TCP客户端与服务端](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/TCP_1.md)
 - [文件下载器](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/Data_down.md)
   
-## :floppy_disk: 简单的Web服务器实现
+## :floppy_disk: Web服务器实现
 - [Web和Socket通信](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Socket_1.md)
 - [三次握手，四次挥手](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/3hand.md)
 
  
 ## :pencil2: 高并发服务器
-- [单线程http服务器](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_one.md)
-- [多进程实现http服务器](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_process.md)
-- [多线程实现http服务器](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Socket_1.md)
-- [协程gevet服务器](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/gevent.md)
-- [单线程单进程并发服务器](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/server_one1.md)  
+- [单线程](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_one.md)
+- [多进程](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_process.md)
+- [多线程](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Socket_1.md)
+- [协程gevet](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/gevent.md)
+- [单线程-单进程并发](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/server_one1.md)  
 - [长链接与短链接](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/long_short.md)  
 - [单进程单线程并发_长链接](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/long_server.md)  
 - [epoll简单理解](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/epoll_server.md)  
@@ -46,6 +46,6 @@
 转载文章不限制，记得起就写，懒得写就算了，不强求。  
 
 ### 此 致  
-### 谢谢观赏  
+### 敬 礼  
 
 
