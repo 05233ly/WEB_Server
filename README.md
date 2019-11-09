@@ -27,7 +27,10 @@
 
 ## :bulb: 网络通信  
 - [TCP/IP协议](https://github.com/KissMyLady/Web-of-Python/blob/master/Communicationg/TCP.md)
-
+- [集线器-low局域网]()  
+- [switch-hight局域网]()  
+- [使用路由器连接多个网络]()  
+- [连接wifi过程]()  
 ### 排版  
 
 笔记内容按照 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 进行排版，以保证内容的可读性。  
