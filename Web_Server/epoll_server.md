@@ -2,7 +2,7 @@ epoll简单理解
 ===
 
 ### 使用epoll实现高并发服务器  
-![](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/Img/epoll_main1.jpg)  
+![](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Img/epoll_main1.jpg)  
 
 
 ### 看完了  
