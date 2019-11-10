@@ -38,4 +38,7 @@
 http服务一般都用短链接；长连接对于服务端来说会耗费一定的资源，而像WEB网站这么频繁的成千上万甚至上亿客户端的连接用短连接会更省一些资源，如果用长连接，而且同时有成千上万的用户，如果每个用户都占用一个连接的话，那可想而知吧。所以并发量大，但每个用户无需频繁操作情况下需用短连好。   
 
 ### 看完了  
-- [单进程单线程并发_长链接](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/long_server.md)  
+- [返回主页](https://github.com/KissMyLady)  
+- [返回Web主页](https://github.com/KissMyLady/Web-of-Python)  
+- [上一页-单线程单进程并发服务器](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_one1.md)  
+- [下一页-单进程单线程并发_长链接](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/long_server.md)   
