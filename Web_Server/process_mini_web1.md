@@ -92,7 +92,7 @@ if __name__ == '__main__':
 怎么在你刚建立的Web服务器上运行一个Django应用和Flask应用，如何不做任何改变而适应不同的web架构呢？  
 
 在以前，选择 Python web 架构会受制于可用的web服务器，反之亦然。如果架构和服务器可以协同工作，那就好了：  
-![2](https://github.com/KissMyLady/Web-of-Python/blob/master/Img/mini2.png)  
+![2](https://github.com/KissMyLady/Web-of-Python/blob/master/Img/mili2.png)  
 
 但有可能面对（或者曾有过）下面的问题，当要把一个服务器和一个架构结合起来时，却发现他们不是被设计成协同工作的：  
 ![3](https://github.com/KissMyLady/Web-of-Python/blob/master/Img/mini3.png)  
