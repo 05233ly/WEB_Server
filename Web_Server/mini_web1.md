@@ -1,7 +1,7 @@
 服务器动态资源请求  
 ====
 
-## 1. 浏览器请求动态页面过程  
+## 1. WSGI动态页面请求流程    
 ![1](https://github.com/KissMyLady/Web-of-Python/blob/master/Img/mini1.png)  
 
 ## 2、`WSGI ` 
