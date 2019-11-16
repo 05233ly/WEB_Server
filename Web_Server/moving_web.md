@@ -4,7 +4,7 @@
 ```Python
 import multiprocessing
 import socket, re, time
-import mini  #  引用同级目录py文件
+import mini  # 引用同级目录py文件
 
 class WSGIServer(object):
     
