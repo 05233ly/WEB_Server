@@ -88,10 +88,10 @@ WSGI动态页面代码详细流程图
 ```
 ## 论WSGI中字典的作用  
 核心代码块:  
-![]()  
+![11](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Img/WSGI_of_dict.jpg)  
 
 浏览器结果：  
-![]()
+![22](https://github.com/KissMyLady/Web-of-Python/blob/master/Img/WSGI_dict2.jpg)
 结论： 通过字典设置=file_name, 可以实现自动动态网页加载
 
 
