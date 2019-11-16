@@ -2,7 +2,8 @@
 ====
 
 ## 1. WSGI动态页面请求流程    
-![1](https://github.com/KissMyLady/Web-of-Python/blob/master/Img/mini1.png)  
+请往下浏览，这里我将流程图和代码图放在一起对比了，方便理解  
+
 
 ## 2、`WSGI ` 
 怎么在你刚建立的Web服务器上运行一个Django应用和Flask应用，如何不做任何改变而适应不同的web架构呢？  
@@ -44,7 +45,12 @@ def application(environ, start_response):
 所以`application()`函数必须由WSGI服务器来调用。有很多符合WSGI规范的服务器。  
 而我们此时的web服务器项目的目的就是做一个既能解析静态网页还可以解析动态网页的服务器  
 
-
+### 请看详细代码说明  
+- WSGI动态页面请求流程
+![1](https://github.com/KissMyLady/Web-of-Python/blob/master/Img/mini1.png)  
+WSGI动态页面代码详细流程图  
+![WSGI](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Img/WSGI2.jpg)  
+   
 ## 4. web服务器-----WSGI协议---->web框架 传递的字典
 
 ```Python
