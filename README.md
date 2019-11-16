@@ -6,8 +6,8 @@ Web服务器
 - [动态Mini服务器](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/moving_web.md)  
 - [动态Mini-静动态分离](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/moveing_web3.md)  
 - [服务器动态资源请求WSGI](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/mini_web1.md)  
-- [完整后端讲解]()  
-- [服务-框架高度解耦]()   
+- [完整后端讲解](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/mini_frame_complete.md)  
+- [服务-框架高度解耦](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/web_sev_decoupling.md)   
 ## :pencil2: 并发服务器
 - [单线程](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_one.md)
 - [多进程](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_process.md)
