@@ -1,6 +1,7 @@
 动态Mini-静动态分离  
 =====
 
+## main  
 ```Python
 import multiprocessing
 import socket, re, time
@@ -89,6 +90,7 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+## Mini  
 ```Python
 import time
 
