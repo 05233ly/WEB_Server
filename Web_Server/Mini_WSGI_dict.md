@@ -100,7 +100,7 @@ if __name__ == '__main__':
     main()
 
 ```
-## mini_web_fream  
+## mini_web_frame  
 ```SQL
 def index():
 	return '这是主页'
