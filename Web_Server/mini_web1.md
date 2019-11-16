@@ -94,7 +94,7 @@ WSGI动态页面代码详细流程图
 ![22](https://github.com/KissMyLady/Web-of-Python/blob/master/Img/WSGI_dict2.jpg)
 结论： 通过字典设置=file_name, 可以实现自动动态网页加载
 
-
+- [全部完整代码](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Mini_WSGI_dict.md)    
 
 
 
