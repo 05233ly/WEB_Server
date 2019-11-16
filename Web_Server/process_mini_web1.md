@@ -114,9 +114,8 @@ class WSGIServer(object):
                 print('输入信息没有内容，默认为index,打印默认页:', file_nema)
 
         # 2、判断是否是py结尾
-        # 2.1，不是py认为是静态资源(html/css/js/png/jpg等)
+        # 2.1，如果不是py，认为是静态资源(html/css/js/png/jpg等)
         if not file_nema.endswith(".py"):
-   
             try:
                 path = r'D:/Python初级工程师/19、网络编程/2、web服务器' + file_nema
                 print('这是路径', path)
@@ -147,7 +146,8 @@ class WSGIServer(object):
             header = "HTTP/1.1 200 OK\r\n"
             header += "\r\n"
             
-            body = 'hahahaha%s' % (time.ctime())
+            # 此时刷新页面，可以看到页面的时间在变化，此时，这是一个简单的动态web网站
+            body = 'hahahaha%s' % (time.ctime()) # 这里就是web框架要发挥作用的地方，单独建立py文件，降低耦合度
             # 发送请response相应
             response = header + body
             new_socket.send(response.encode('utf-8'))
