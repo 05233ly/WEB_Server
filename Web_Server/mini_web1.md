@@ -53,7 +53,7 @@ WSGI动态页面代码详细流程图
    
 ## 4. web服务器-----WSGI协议---->web框架 传递的字典
 
-```Python
+```SQL
 {
     'HTTP_ACCEPT_LANGUAGE': 'zh-cn',
     'wsgi.file_wrapper': <built-infunctionuwsgi_sendfile>,
@@ -86,3 +86,18 @@ WSGI动态页面代码详细流程图
     'SERVER_NAME': 'ubuntu'
 }
 ```
+## 论WSGI中字典的作用  
+核心代码块:  
+![]()  
+
+浏览器结果：  
+![]()
+结论： 通过字典设置=file_name, 可以实现自动动态网页加载
+
+
+
+
+
+
+
+
