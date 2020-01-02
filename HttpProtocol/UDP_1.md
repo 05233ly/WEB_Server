@@ -7,7 +7,7 @@ Socket通信之UDP
 
 网络上各种服务, 大多是基于socket实现的     
 
-## Python实现socket  
+## Python实现Socket  
 ```Python
 import socket
 s_tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
