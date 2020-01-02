@@ -9,7 +9,7 @@ Socket通信之UDP
 
 
 Python实现socket  
-```
+```Python
 import socket
 s_tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s_udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -21,7 +21,7 @@ s_udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 那么问题来了, UDP提供服务, 怎么收发数据?    
 UDP收发是可以分开写的    
-```
+```python
 s_udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s_udp.bind(('', 6666))
 s_udp.recvfrom(1024)
