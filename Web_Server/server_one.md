@@ -107,7 +107,7 @@ file_nema = ret[0]
 if file_nema == '/':
     file_nema = "/index.html"
 ```
-细节一:   
+#### 细节一:   
 这里使用判断, 如果浏览器什么都没写, 就返回固定页面  
 像我们浏览网站, 你肯定不会在域名上敲点什么再去访问, 所以这个是必要的  
 
@@ -133,17 +133,17 @@ else:
     new_socket.send(response.encode())
     new_socket.close()
 ```
-细节一:   
+#### 细节一:   
 使用了try增加系统容错率, 电脑不比人, 找不到文件或是文件打开错误搞不好整个系统就崩溃掉了  
 所以我们这里使用try包一下   
 
-细节二:  
+#### 细节二:  
 ```Python
 html_content = f.read()
 ```
 一个网页才几kb的样子, 所以可以直接读取, 不用担心  
 
-细节三:  
+#### 细节三:  
 ```Python
 html_content = f.read()
 f.close()
