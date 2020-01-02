@@ -4,7 +4,9 @@ Web服务器
 ## :wrench:  Http协议
 - [浏览器与服务器传输方式](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/What_is_HTTP.md)
 - [Socket通信之UDP](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/UDP_1.md)
-- [Socket通信之TCP](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/TCP_1.md)
+- [Socket通信之TCP](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/TCP_1.md)  
+- [三次握手，四次挥手](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/3hand.md)
+
 - [文件下载器](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/Data_down.md)
   
 ## :bulb: 网络通信  
@@ -15,9 +17,7 @@ Web服务器
 - [连接wifi过程]()  
 
 ## :floppy_disk: Web服务器实现
-- [Web和Socket通信](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Socket_1.md)
-- [三次握手，四次挥手](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/3hand.md)
-
+- [Web和Socket通信](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Socket_1.md)  
 
 ## :computer: Mini_web框架  
 - [多进程_OOP_web服务器](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/process_mini_web1.md)   
@@ -39,7 +39,7 @@ Web服务器
 - [单进程单线程并发_长链接](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/long_server.md)  
 - [epoll简单理解](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/epoll_server.md)
 
-## :watermelon: 正则表达式
+## :watermelon: 其  他
 - [Re学习](https://github.com/KissMyLady/Web-of-Python/blob/master/Re/re.md)
 - [Re表达式汇总](https://github.com/KissMyLady/Web-of-Python/blob/master/Re/re_text.md)
 
