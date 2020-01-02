@@ -1,6 +1,84 @@
 长链接和短链接  
 =====
 
+## 长连接使用方法  
+我们先看一段代码   
+```python
+# 实现网页标签返回数据
+import socket, re
+import time
+
+def service_client(client_socket, recv_data):
+    request_lines = recv_data.splitlines()
+    ret = re.findall(r"(/[^ ]*)", request_lines[0])
+    file_nema = ret[0]
+    if file_nema:
+        if file_nema == '/':
+            file_nema = "/index.html"
+
+    response = 'HTTP/1.1 200 OK\r\n'
+    response += "Content-Length:%d\r\n" % len(response)
+    response += "\r\n"
+    try:
+        path = r'D:/web' + file_nema
+        f = open(path, "rb")
+    except:
+        response = 'HTTP/1.1 404 NOT FOUND\r\n'
+        response += "\r\n"
+        response += "----Not found----"
+        client_socket.send(response.encode('utf-8'))
+    else:
+        response_body = f.read()
+        f.close()
+        response_header = 'HTTP/1.1 200 OK\r\n'
+        response_header += "Content-Length:%s\r\n" % len(response_body)
+        response_header += "\r\n"
+        response = response_header.encode('utf-8')
+        client_socket.send(response)
+
+def main():
+    tcp_server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    tcp_server.bind(('', 8080))
+    tcp_server.listen(128)
+    tcp_server.setblocking(False)
+    client_socket_list = list()
+    while True:
+        time.sleep(0.5)
+        try:
+            new_socket, client_addr = tcp_server.accept()
+        except Exception as ret:
+            pass
+        else:
+            new_socket.setblocking(False)
+            client_socket_list.append(new_socket)
+            
+        for client_socket in client_socket_list:
+            try:
+                recv_data = client_socket.recv(1024).decode('utf-8')
+            except  Exception as ret:
+                pass
+            else:
+                if recv_data:
+                    print('套接字请求')
+                    service_client(client_socket, recv_data)
+                else:
+                    client_socket.close()
+                    client_socket_list.remove(client_socket)
+    tcp_server.close()
+
+if __name__ == '__main__':
+    main()
+```
+细节部分:  
+```python
+header = 'HTTP/1.1 200 OK\r\n'
+header += "Content-Length:%s\r\n" % len(response_body)
+header += "\r\n"
+```
+浏览器会看一看网页一共有多长, `len(response_body)`, 文件都收到后, 那个圈圈就不会转了  
+浏览器把全部文件收到后, 主动断开连接  
+
+
 ### 抽象图:  
 ![long_and_short1](https://github.com/KissMyLady/Web-of-Python/blob/master/Img/long_short.jpg)  
 
@@ -37,8 +115,3 @@
   长连接多用于操作频繁，点对点的通讯，而且连接数不能太多情况；例如：数据库的连接用长连接， 如果用短连接频繁的通信会造成socket错误，而且频繁的socket 创建也是对资源的浪费。  
 http服务一般都用短链接；长连接对于服务端来说会耗费一定的资源，而像WEB网站这么频繁的成千上万甚至上亿客户端的连接用短连接会更省一些资源，如果用长连接，而且同时有成千上万的用户，如果每个用户都占用一个连接的话，那可想而知吧。所以并发量大，但每个用户无需频繁操作情况下需用短连好。   
 
-### 看完了  
-- [返回主页](https://github.com/KissMyLady)  
-- [返回Web主页](https://github.com/KissMyLady/Web-of-Python)  
-- [上一页-单线程单进程并发服务器](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_one1.md)  
-- [下一页-单进程单线程并发_长链接](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/long_server.md)   
