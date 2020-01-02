@@ -1,14 +1,13 @@
 Socket通信之UDP    
 ====
 
-这是什么?  
+## 这是什么?  
 1. 它是进程间通信的一种方式  
 2. 更厉害的是, 它能实现不同主机之间的通信   
 
 网络上各种服务, 大多是基于socket实现的     
 
-
-Python实现socket  
+## Python实现socket  
 ```Python
 import socket
 s_tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -19,7 +18,7 @@ s_udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 细节二: 创建记得关闭, 上面省略了`s.close()`
 
 
-那么问题来了, UDP提供服务, 怎么收发数据?    
+## 那么问题来了, UDP提供服务, 怎么收发数据?    
 UDP收发是可以分开写的    
 ```python
 s_udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -35,20 +34,21 @@ s_udp.sendto('hhh'.encode(), ('192.168.0.102', 6666))
 print(s_udp)
 ```
 上面是核心代码   
-接下来演示, 不同主机之间, 在局域网如何发送消息   
-主机与服务器:  
+接下来演示, 不同主机之间, 在局域网如何发送消息  
+
+## 主机与服务器:  
 ![ScreenShot-00238](https://github.com/KissMyLady/WEB_Server/blob/master/Img/ScreenShot-00238.jpg)  
 左边是数据的发送方, 右边服务器是数据的接收方   
 注意ip地址, 我们接下来要用到  
 
-左边Ubuntu发送数据方:  
+### 左边Ubuntu发送数据方:  
 ```Python
 import socket
 s_udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s_udp.sendto('hhhh'.encode(), ('192.168.0.102', 6666))
 s_udp.close()
 ```
-右边Server接受数据方:    
+### 右边Server接受数据方:    
 ```Python
 import socket
 s_udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -61,16 +61,15 @@ s_udp.close()
 ![ScreenShot-00237](https://github.com/KissMyLady/WEB_Server/blob/master/Img/ScreenShot-00237.jpg)  
 请看图, 继续我们上面的代码  
 从`发送方`代码我们能略知一二UDP的性质:  
-1. 发送方需要知道数据发到哪台主机, 主机上的那个端口号:  `bind('192.168.0.102', 6666)`   
-2. 发送方需要发送数据, 而且数据要压缩成bytes类型的  
-3. 发送完毕后需要关闭, 端口占用会浪费资源  
+* 1. 发送方需要知道数据发到哪台主机, 主机上的那个端口号:  `bind('192.168.0.102', 6666)`   
+* 2. 发送方需要发送数据, 而且数据要压缩成bytes类型的  
+* 3. 发送完毕后需要关闭, 端口占用会浪费资源  
 
 从`接收方`代码我们能略知一二UDP的性质:  
-1. 本机需要知道接收哪里的数据, 哪里端口的数据: `bind(('', 6666))`      
-2. 本机需要等待数据发过来:  `recvfrom(1024)`     
-3. 本机需要对数据解压才能正常显示数据:  `decode()`    
+* 1. 本机需要知道接收哪里的数据, 哪里端口的数据: `bind(('', 6666))`      
+* 2. 本机需要等待数据发过来:  `recvfrom(1024)`     
+* 3. 本机需要对数据解压才能正常显示数据:  `decode()`    
 ![ScreenShot-00239](https://github.com/KissMyLady/WEB_Server/blob/master/Img/ScreenShot-00239.jpg)   
-
 
 
 ## 多线程UDP   
