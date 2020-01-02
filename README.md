@@ -14,7 +14,7 @@ Web开发
 - [多进程--继承实现网页标签返回数据](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_process.md)
 - [多线程--继承实现网页标签返回数据](https://github.com/KissMyLady/WEB_Server/blob/master/Web_Server/web_threading.md)
 - [Web和Socket通信--协程Gevet](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/gevent.md)
-- [Web和Socket通信--单线程-单进程并发](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/server_one1.md)  
+- [Web和Socket通信--List仓库遍历](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/server_one1.md)  
 - [Web和Socket通信--长链接与短链接](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/long_short.md)  
 - [Web和Socket通信--单进程单线程并发](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/long_server.md)  
 - [Web和Socket通信--epoll简单理解](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/epoll_server.md)
