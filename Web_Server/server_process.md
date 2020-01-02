@@ -83,7 +83,7 @@ tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 ....
 while True:
 	.....
-    tcp.close()
+tcp.close()
 ```
 这的tcp需要再关闭一次, 为什么?  进程是写实copy, 把这个资源, 环境递归复制一份运行了  
 进程就相当于一块独立的空间, 独立的空间关闭了, 这里本土的空间还没关闭, 需要关闭   
