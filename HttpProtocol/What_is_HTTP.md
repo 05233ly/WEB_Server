@@ -45,11 +45,16 @@ Pragma：控制浏览器不要缓存数据          no-cache
 Connection：响应完成后，是否断开连接。  close/Keep-Alive  
 Date：告诉浏览器，服务器响应时间  
 
-## HTTP响应状态码参考：  
+HTTP 响应状态码参考： 
+====  
+## 1开头
 ```
 1xx:信息
 100 Continue: 服务器仅接收到部分请求，但是一旦服务器并没有拒绝该请求，客户端应该继续发送其余的请求。
 101 Switching Protocols: 服务器转换协议：服务器将遵从客户的请求转换到另外一种协议。
+```
+## 2开头   
+```
 2xx:成功
 200 OK 请求成功（其后是对 GET 和 POST 请求的应答文档）
 201 Created 请求被创建完成，同时新的资源被创建。
@@ -61,6 +66,9 @@ Date：告诉浏览器，服务器响应时间
 这个状态代码是很有用的。
 205 Reset Content 没有新文档。但浏览器应该重置它所显示的内容。用来强制浏览器清除表单输入内容。
 206 Partial Content 客户发送了一个带有 Range 头的 GET 请求，服务器完成了它。
+```
+## 3开头   
+```
 3xx:重定向
 300 Multiple Choices 多重选择。链接列表。用户可以选择某链接到达目的地。最多允许五个地址。
 301 Moved Permanently 所请求的页面已经转移至新的 url  
@@ -72,6 +80,9 @@ Date：告诉浏览器，服务器响应时间
 305 Use Proxy 客户请求的文档应该通过 Location 头所指明的代理服务器提取。
 306 Unused 此代码被用于前一版本。目前已不再使用，但是代码依然被保留。
 307 Temporary Redirect 被请求的页面已经临时移至新的 url。
+```
+## 4开头   
+```
 4xx:客户端错误
 400 Bad Request 服务器未能理解请求。
 401 Unauthorized 被请求的页面需要用户名和密码。
@@ -123,6 +134,9 @@ Date：告诉浏览器，服务器响应时间
 416 Requested Range Not Satisfiable 服务器不能满足客户在请求中指定的 Range 头。
 417 Expectation Failed 执行失败。
 423 锁定的错误。
+```
+## 5开头   
+```
 5xx:服务器错误
 500 Internal Server Error 请求未完成。服务器遇到不可预知的情况。
 500.12 应用程序正忙于在 Web 服务器上重新启动。
@@ -139,8 +153,6 @@ Date：告诉浏览器，服务器响应时间
 504 Gateway Timeout 网关超时。
 505 HTTP Version Not Supported 服务器不支持请求中指明的 HTTP 协议版本
 ```
-
-
 
 
 
