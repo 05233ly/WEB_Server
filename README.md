@@ -4,7 +4,7 @@ Web服务器
 ## :wrench:  Http协议
 - [浏览器与服务器传输方式](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/What_is_HTTP.md)
 - [Socket通信之UDP](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/UDP_1.md)
-- [TCP客户端与服务端](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/TCP_1.md)
+- [Socket通信之TCP](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/TCP_1.md)
 - [文件下载器](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/Data_down.md)
   
 ## :bulb: 网络通信  
