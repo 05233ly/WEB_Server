@@ -21,6 +21,7 @@ Web开发
 - [服务-框架高度解耦](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/web_sev_decoupling.md)   
 - [装饰器-路由功能](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/mini_decorator_route.md)  
 - [伪静态、静态和动态的区别](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/static_and_dynamic_defnce.md)   
+- [Django](https://github.com/KissMyLady/Django)  
 
 ## :pencil2: 并发服务器
 - [单线程](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_one.md)
