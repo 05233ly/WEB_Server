@@ -10,7 +10,7 @@ Web开发
 
 ## :floppy_disk: Web服务器实现
 - [Web和Socket通信--基石](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Socket_1.md)  
-- [Web和Socket通信--单线程](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_one.md)
+- [Web和Socket通信--单线程-返回指定网页](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_one.md)
 - [Web和Socket通信--多进程](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/server_process.md)
 - [Web和Socket通信--多线程](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/Socket_1.md)
 - [Web和Socket通信--协程gevet](https://github.com/KissMyLady/Web-of-Python/tree/master/Web_Server/gevent.md)
