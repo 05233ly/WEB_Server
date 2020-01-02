@@ -60,7 +60,7 @@ import gevent
 monkey.patch_all()
 ```
 并且在里面添加了`monkey.patch_all()`方法, 该方法的作用就是替换
-![猴子补丁](https://zhuanlan.zhihu.com/p/37679547), 这里先把方法给实现了, 后面谈谈什么是猴子补丁  
+[猴子补丁](https://zhuanlan.zhihu.com/p/37679547), 这里先把方法给实现了, 后面谈谈什么是猴子补丁  
 
 ## 函数`main`  
 ```Python
