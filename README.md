@@ -3,9 +3,9 @@ Web开发
 
 ## :bulb:  优秀文章  
 - [1. 通俗网络分层详解](http://www.52im.net/thread-2851-1-1.html)   
-- [2. 深入理解TCP协议(上): 理论基础](http://www.52im.net/thread-513-1-1.html)     
-- [3. 深入理解TCP协议(下):RTT,滑动窗口,拥塞处理](http://www.52im.net/thread-515-1-1.html)     
-- [4. 理论-实际：Wireshark抓包分析3握, 4挥手过程](http://www.52im.net/thread-275-1-1.html)     
+- [2. 深入理解TCP协议(上)](http://www.52im.net/thread-513-1-1.html)     
+- [3. 深入理解TCP协议(下)](http://www.52im.net/thread-515-1-1.html)     
+- [4. Wireshark抓包分析3握, 4挥手过程](http://www.52im.net/thread-275-1-1.html)     
 
 
 ## :wrench:  互联网协议 
