@@ -26,7 +26,8 @@ Web开发
 - [Web和Socket通信--长链接与短链接](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/long_short.md)  
 - [Web和Socket通信--epoll简单理解](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/epoll_server.md)
 
-## :computer: Mini_web框架  
+## :computer: Mini_Web框架  
+- [WSGI--基石](https://github.com/KissMyLady/WEB_Server/blob/master/Web_Server/wsgi_base_one.md)  
 - [多进程_OOP_web服务器](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/process_mini_web1.md)   
 - [动态Mini服务器](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/moving_web.md)  
 - [动态Mini-静动态分离](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/moveing_web3.md)  
