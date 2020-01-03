@@ -35,13 +35,14 @@ class Stack(object):
 # ![ScreenShot-00247](https://github.com/KissMyLady/WEB_Server/blob/master/Img/ScreenShot-00247.jpg)   
 
 我们再来看看两张经典TCP/IP协议:  
-# ![HTTP_img](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/HTTP_img.jpg)
+# ![HTTP_img](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/HTTP_img.jpg)  
+  
+## 数据传输封装   
+# ![tcpip001](https://github.com/KissMyLady/WEB_Server/blob/master/Img/tcpip001.jpg)   
 
-# ![tcpip001](https://github.com/KissMyLady/Web-of-Python/blob/master/HttpProtocol/tcpip001.jpg)
+# ![ScreenShot-00248](https://github.com/KissMyLady/WEB_Server/blob/master/Img/ScreenShot-00248.jpg)    
 
-# ![ScreenShot-00248](https://github.com/KissMyLady/WEB_Server/blob/master/Img/ScreenShot-00248.jpg)  
-
-# ![ScreenShot-00249](https://github.com/KissMyLady/WEB_Server/blob/master/Img/ScreenShot-00249.jpg)  
+# ![ScreenShot-00249](https://github.com/KissMyLady/WEB_Server/blob/master/Img/ScreenShot-00249.jpg)    
 但是这里请注意:  OSI协议标准是理论的协议    
 TCP/IP是 实际应用的协议   
 
