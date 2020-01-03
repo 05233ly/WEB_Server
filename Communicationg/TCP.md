@@ -46,7 +46,7 @@ class Stack(object):
 TCP/IP是 实际应用的协议   
 
 
-
+ 
 ## [单台服务器并发TCP连接数到底可以有多少](http://www.52im.net/thread-561-1-1.html)
 server通常固定在某个本地端口上监听，等待client的连接请求。
 不考虑地址重用（unix的SO_REUSEADDR选项）的情况下，即使server端有多个ip，本地监听端口也是独占的  
