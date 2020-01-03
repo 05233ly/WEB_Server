@@ -185,7 +185,8 @@ if not file_nema.endswith(".py"):
 
 ## WSGI协议核心  
 这段代码就是WSGI的转发核心了:  
-```
+```Python
+...
 else:
     env = dict()
     body = mini.application(env, self.set_resopnse_header)
