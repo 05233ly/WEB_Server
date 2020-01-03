@@ -28,6 +28,7 @@ Web开发
 
 ## :computer: Mini_Web框架  
 - [WSGI--基石](https://github.com/KissMyLady/WEB_Server/blob/master/Web_Server/wsgi_base_one.md)  
+- [WSGI--服务器版本号-中文显示](https://github.com/KissMyLady/WEB_Server/blob/master/Web_Server/wsgi_charset.md)  
 - [多进程_OOP_web服务器](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/process_mini_web1.md)   
 - [动态Mini服务器](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/moving_web.md)  
 - [动态Mini-静动态分离](https://github.com/KissMyLady/Web-of-Python/blob/master/Web_Server/moveing_web3.md)  
